@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>bookstoreapp</name>
-	<description>Frontend for the Online Book Store project</description>
+	<description>Frontend for the online bookstore project</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
