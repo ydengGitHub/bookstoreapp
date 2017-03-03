@@ -7,10 +7,10 @@
 	<div th:replace="common/header :: navbar" />
 
 	<div class="container">
-		<div class="row banner">
+		<div class="row">
 			<!-- carousel -->
 			<div class="col-xs-8">
-				<div class="panel panel-default" style="margin-top: 20px;">
+				<div class="panel panel-default">
 					<div class="panel-body">
 						<div id="carousel-example-generic" class="carousel slide"
 							data-ride="carousel">
@@ -26,13 +26,11 @@
 							<div class="carousel-inner" role="listbox">
 								<div class="item active">
 									<img
-										src="http://lorempixel.com/output/sports-q-c-1600-500-1.jpg"
+										src="http://lorempixel.com/output/food-q-c-1600-500-1.jpg"
 										alt="..." />
 									<div class="carousel-caption">
-										<h4>First Thumbnail Label</h4>
-										<p>Contrary to popular belief, Lorem Ipsum is not simply
-											random text. It has roots in a piece of classical Latin
-											literature from 45 BC, making it over 2000 years old.</p>
+										<h4>Food is good!</h4>
+										<p>Everybody loves food.</p>
 									</div>
 								</div>
 								<div class="item">
@@ -40,21 +38,17 @@
 										src="http://lorempixel.com/output/sports-q-c-1600-500-2.jpg"
 										alt="..." />
 									<div class="carousel-caption">
-										<h4>First Thumbnail Label</h4>
-										<p>Contrary to popular belief, Lorem Ipsum is not simply
-											random text. It has roots in a piece of classical Latin
-											literature from 45 BC, making it over 2000 years old.</p>
+										<h4>Sport is better!</h4>
+										<p>Many people love Sports.</p>
 									</div>
 								</div>
 								<div class="item">
 									<img
-										src="http://lorempixel.com/output/sports-q-c-1600-500-3.jpg"
+										src="http://lorempixel.com/output/technics-q-c-1600-500-4.jpg"
 										alt="..." />
 									<div class="carousel-caption">
-										<h4>First Thumbnail Label</h4>
-										<p>Contrary to popular belief, Lorem Ipsum is not simply
-											random text. It has roots in a piece of classical Latin
-											literature from 45 BC, making it over 2000 years old.</p>
+										<h4>Tech is the best!</h4>
+										<p>Some people love Techs.</p>
 									</div>
 								</div>
 								...
@@ -85,21 +79,21 @@
 			<div class="col-xs-4">
 				<div clas="panel panel-default">
 					<div class="panel-body">
-						<a th:href="@{/bookshelf}"><img src="/image/bestseller.png" class="img-responsive" /></a>
+						<img src="/image/bestseller.png" class="img-responsive" />
 					</div>
 				</div>
 			</div>
 			<div class="col-xs-4">
 				<div clas="panel panel-default">
 					<div class="panel-body">
-						<a th:href="@{/hours}"><img src="/image/hours.png" class="img-responsive" /></a>
+						<img src="/image/hours.png" class="img-responsive" />
 					</div>
 				</div>
 			</div>
 			<div class="col-xs-4">
 				<div clas="panel panel-default">
 					<div class="panel-body">
-						<a th:href="@{/faq}"><img src="/image/faq.png" class="img-responsive" /></a>
+						<img src="/image/faq.png" class="img-responsive" />
 					</div>
 				</div>
 			</div>
@@ -217,7 +211,7 @@
 	</div>
 	<!-- end of container -->
 
-<div th:replace="common/header :: footer"/>
+
 	<div th:replace="common/header :: body-bottom-scripts" />
 </body>
 </html>
